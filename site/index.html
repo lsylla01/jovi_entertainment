@@ -22,7 +22,7 @@
 	<!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   
     
 </head>
@@ -30,12 +30,11 @@
 <body id="home">
 
 <header>
-	<div class="header">
-		<div class="brand"> 
-			<a class="navbar-brand" href="#">
-			<p>Sample logo here</p>
-			<img src="assets/img/flags/US.png"></a>
-		</div> <!-- close header-->
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="header">
+			<div class="brand"> 
+				 <a class="navbar-brand" href="#"><img alt="Brand" src="assets/img/img_7044.jpg"></a>
+			</div> <!-- close header-->
 			<div class="topNav">
 				<ul class="nav navbar-nav">
         				<li class="active"><a href="#"><h6 class="textTopNav">About Us</h6><span class="sr-only">(current)</span></a></li>
@@ -44,7 +43,8 @@
         				<li><a href="#"><h6 class="textTopNav">Shop</h6></a></li>
         			</ul>		
 			</div>
-
+		</div>	
+	</nav>		
 </header>
 
 <div class="containTheImages">
@@ -73,7 +73,7 @@
 
 	     <!--Bottom nav bar-->
 
-		<nav class="navBottomBackground navbar navbar-transparent navbar-default navbar-fixed-bottom navbar-color-on-scroll">
+		<nav id="bottomHeader-nav" class="navBottomBackground navbar navbar-transparent navbar-default navbar-fixed-bottom navbar-color-on-scroll">
 	  		<div class="container-fluid">
 	  			<ul class="nav navbar-nav navbar-right">
 	  				<li><a href="#pablo"><i class="fa fa-eventbrite"></i> Eventbrite</a></li>
@@ -137,16 +137,13 @@
 
 					<img src="http://placehold.it/350x150">
 
-						<p class="text">Aliquet Netus TristiqueNulla id risus parturient morbi. Interdum nisi suspendisse gravida. Dignissim orci dapibus. Phasellus aliquet fames. Urna. Ridiculus bibendum. Ipsum orci quam felis aenean porttitor vestibulum metus nostra aliquet tempus consequat class neque sollicitudin inceptos, venenatis a quam metus est aliquam fames cursus consectetuer, vehicula enim. Nibh leo nonummy risus cursus ad mollis, egestas facilisis etiam parturient ultricies ridiculus accumsan pulvinar etiam congue. Vitae Pretium arcu ornare fames nisl fermentum facilisis metus eleifend scelerisque suspendisse vel sapien. Enim consectetuer justo facilisis sem augue elementum vehicula scelerisque porttitor parturient vitae urna laoreet tristique malesuada sodales mi lacinia non. Lacinia, blandit ultrices porta habitant sapien proin integer eget pharetra amet pellentesque facilisi orci ut fermentum pretium hac dictum Mollis fusce sociis pharetra ad et fringilla ipsum ac lobortis per potenti erat, nullam platea sociosqu, tortor inceptos consequat gravida. Arcu rhoncus fames. <br>
-
-						Pretium
-						Tempor potenti a sociosqu dapibus suscipit lacus. Leo dis massa. Ornare ante pharetra risus tempus cursus maecenas torquent. Facilisis, morbi elit penatibus convallis, vel viverra. Etiam hendrerit placerat conubia, ultrices Praesent sed morbi aliquet natoque nisl ipsum ante et cursus penatibus cum parturient diam eros per Per nibh. Nonummy faucibus id consequat vitae consequat leo curabitur tempus porta proin mi nisi sociosqu. Interdum nostra sed conubia. Dictumst vestibulum viverra cras. Orci pulvinar proin condimentum tortor dapibus diam tempus. Taciti donec. Placerat inceptos nostra netus est suspendisse. At est fringilla auctor arcu, platea aenean euismod nibh fames maecenas. Lobortis nonummy dignissim volutpat integer, pellentesque accumsan malesuada pede ante urna porta class ad ante dignissim. Quam sociosqu ac. Diam ornare dignissim justo natoque conubia mauris pellentesque varius torquent lacinia sed ac varius congue arcu turpis. Donec posuere nam neque, lobortis odio faucibus facilisi vel ullamcorper mauris Conubia varius inceptos congue blandit aliquam. Pharetra senectus taciti tincidunt mollis tellus. Malesuada etiam convallis ante in. Eget, cras aliquam ante proin ut proin cubilia elit, lorem viverra tempor, venenatis. Hendrerit ultricies praesent senectus, condimentum sociis cras. Leo amet vestibulum. Senectus mollis cras lorem vel fermentum. Luctus condimentum turpis nibh iaculis. Lobortis eu proin. Erat Turpis accumsan varius, ac eu bibendum enim. Senectus montes diam natoque tellus cursus lacinia mus nibh sapien aliquam Auctor risus, netus ultrices integer cras in. Mi eu leo mauris malesuada at Porta eget Lorem scelerisque augue viverra ut mattis class tellus. Odio nisi. Turpis semper blandit, dui vulputate libero id ante nec accumsan, molestie. Odio iaculis porttitor luctus nisl mus praesent. Et fames..								
+						<p class="text">Jovi Ent/ Jovi Events has been around for almost. My team and I cater to the LGBT community. We cater birthday parites, VIP events with or without artists, etc. Our events create a cool comfortable place where people from the community can be themselves, have fun and party without any issues or being judged. Stay tuned for what is in store you late this winter...						
 						</p>
 							<div><p class="text-center"><a href="#top">Back to top:</a></p></div>
 					</section>	
 <hr class="hr">
 			<!--Gallery page -->	
-					<section data-scroll-index="1"><h3 class="sectionHeadings"> Photo Gallery</h3><br>
+					<section data-scroll-index="1"><h3 class="sectionHeadings">Gallery</h3><br>
             
 			<!-- Trigger the Modal -->
 			<div class="container">
@@ -163,9 +160,9 @@
 			      <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
 			      	<img src="assets/img/2016 Queens Pride Pt 1/img_6359.jpg" id="img2" class="img-responsive" width="250px">
 			      </a>
-			      <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+			      <!--a href="#" id="link1" data-toggle="modal" data-target="#myModal">
 			        <img src="assets/img/2016 Queens Pride Pt 1/img_6375.jpg" id="img4" class="img-responsive" width="250px">
-			      </a>          
+			      </a-->          
 			  </div>  
 
 			  <!-- Modal -->

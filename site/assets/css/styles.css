@@ -4,13 +4,24 @@
 	padding: 0;
 }
 
+/** Header **/
+#header-nav {
+	background-color: #000000;
+	border-radius: 0;
+	border: 0;
+}
+
+/*#bottomHeader-nav {
+	background-color:;
+}
+*/ 
 
 #h1 {
 	font-family: 'Galada', cursive;
 }
 
 #home {
-	background-color: #FFFFFF;
+	background-color: #6a7382;
 }
 
 .header {
