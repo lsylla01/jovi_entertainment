@@ -21,7 +21,7 @@
 }
 
 #home {
-	background-color: #6a7382;
+	background-color: #f9f9f9;
 }
 
 .header {
@@ -58,6 +58,7 @@
 .sectionHeadings {
 	text-align: left;
 	font-family: 'Lobster', cursive;
+
 }
 
 .hr {
@@ -68,6 +69,22 @@
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+}
+
+#aboutUs0 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+}
+#aboutUs1 {
+	width: 35%;
+}
+
+#aboutUs2 {
+	width: 65%;
+	float: right;
+
 }
 
 #aboutUsSection {
@@ -103,8 +120,10 @@
 }
 */
 .text {
-	padding-top: 35px;
-	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 10px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
